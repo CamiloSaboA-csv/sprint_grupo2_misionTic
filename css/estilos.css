@@ -1,0 +1,101 @@
+body {
+    background: #e1cccc;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#navegacion {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(230, 35, 35);
+}
+
+#logo {
+    margin-left: 15px;
+    width: 60px;
+}
+
+#btn_registroDeUsuarios {
+    display: contents;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    background-color: rgb(230, 35, 35);
+    border-radius: 50px;
+}
+
+#a_registroDeUsuarios {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+#a_registroDeUsuarios:hover {
+    background-color: rgb(116, 2, 2);
+    color: white;
+}
+
+#a_registroDeUsuarios:active {
+    background-color: black;
+    color: white;
+}
+
+#container h1 {
+    text-align: center;
+    font-family: serif;
+}
+
+#container p {
+    font-family: 'Courier New', Courier, monospace;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#icons {
+    font-family: cursive;
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(230, 35, 35);
+}
+
+#formulario {
+    text-align: left;
+    font-family: cursive;
+    margin-left: 20px;
+}
+
+#registrar_usuario_form {
+    width: 250px;
+    margin: 20px;
+}
+
+#registrar_usuario_form input {
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 100%;
+    font-family: cursive;
+}
+
+#enviar_registro {
+    font-family: cursive;
+    margin-top: 15px;
+    padding: 3px;
+    border-radius: 5px;
+}
