@@ -1,40 +1,21 @@
-var texto="jairo alberto"
 
-function validar_contrasena(texto){
-    var abcd="a, b, c, d, e, f, g, h, i, j, k, l, m, n, ñ, o, p, q, r, s, t, u, v, w, x, y, z"
-    var numeros="123456789"
-    var [minu,mayus,numm, caracEspe]=[0,0,0,0];
 
-    for (var i = 0; i<texto.length; i++){
 
-        var caracter= texto.charAt(i)
+let registros = [];
 
-        //console.log(caracter)
-        
-        if (abcd.includes(caracter)){
-            minu++
-        }else if ((abcd.toUpperCase()).includes(caracter)){
-            mayus++
-        }else if (numeros.includes(caracter)){
-            numm++
-        }else{caracEspe++};
 
-        }
+function agregarRegistro() {
+    enviar_registro = document.getElementById("enviar_registro")
 
-        //console.log(minu,mayus,numm, caracEspe)
-        
-    if (!(caracEspe<1 && minu>0 && mayus>0 && numm>0 && texto.length>5)){
-        alert("contraseña invalida, complete los requerimientos correctamente")
-        return false
-    }else{ 
-        alert("la contraseña ingresada es valida")
-        return true}
+    var nombre_usuario = document.getElementById("nombre_usuario").value;
+    var anoNacimiento_usuario = document.getElementById("anoNacimiento_usuario")
+    var contrasena_usuario = document.getElementById("contrasena_usuario")
+
+
+    //enviar_registro.addEventListener("click", )
 }
-//validar_contrasena(texto)
 
-function validar_nombre_usuario(nombre) {
-    if(nombre.charAt(0)==nombre.charAt(0).toUpperCase()){
-        console.log("correto")
-    }console.log("incorreto")
+function EncontrarUsuarioPorEdad(array) {
+
 }
-validar_nombre_usuario(texto)
+

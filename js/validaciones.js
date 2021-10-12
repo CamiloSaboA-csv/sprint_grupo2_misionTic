@@ -6,6 +6,7 @@ let contrasena_usuario;
 
 
 
+
 window.onload = validar_contrasena;
 // COMENTAR HASTA AQUI PARA VALIDAR EL SPRINT 2
 
@@ -53,7 +54,9 @@ function validar_contrasena(texto){
 }
 
 
-
+module.exports.registros = registros;
+module.exports.EncontrarUsuarioPorEdad = EncontrarUsuarioPorEdad;
+module.exports.agregarRegistro = agregarRegistro;
 
 module.exports.validar_nombre_usuario= validar_nombre_usuario;
 module.exports.validar_contrasena = validar_contrasena;
